@@ -1,79 +1,42 @@
 # Practical Ethical Hacking Course Introduction
 
-**Instructor:** Heath Adams
+## About the Instructor
 
----
-
-## Instructor Introduction
-
-- **Name:** Heath Adams
-- **Background:**
-  - Husband, hacker, military veteran
-  - Former accountant turned security geek
-  - Owner of TCM Security
-- **Online Persona:** The Cyber Mentor
-  - Twitch streamer
-  - YouTuber
-  - Active on Twitter and other social media platforms
-- **Passion:** Teaching ethical hacking and penetration testing
-
----
+- The instructor's name is Heath Adams (known online as The Cyber Mentor)
+- He is a husband, hacker, military veteran, former accountant, and owner of TCM Security (penetration testing company)
+- He is active on various social media platforms like Twitch, YouTube, and Twitter
 
 ## Course Overview
 
-### Why This Course?
+### What Makes This Course Different?
 
-- **Focus:** Practical experience in penetration testing and ethical hacking
-- **Goal:** Teach useful tools and concepts, avoiding unnecessary information
-- **Unique Topics:** Cover areas often overlooked in other courses
+- Focuses on practical experience and concepts, not just tools
+- Explains concepts in a simple, easy-to-understand manner
+- Covers topics often overlooked, like Active Directory penetration testing
 
-### Course Highlights
-
-- **Simplified Explanations:** Concepts explained in an easy-to-understand manner
-- **Active Directory Penetration Testing:** Critical knowledge rarely covered elsewhere
-- **Real-World Applications:** Emphasis on practical, real-world skills
-
----
-
-## Course Topics
+### Course Topics
 
 1. **Introduction**
-2. **Effective Note-Keeping**
-   - Importance of taking good notes
-3. **Foundational Knowledge**
+   - Effective note-taking
+2. **Foundations**
    - Networking
    - Linux
    - Python
-4. **External Network Hacking**
-   - Commonly seen in most courses
-5. **Active Directory Exploitation**
+3. **External Network Hacking**
+4. **Active Directory Exploitation**
    - Building and exploiting an Active Directory lab
-6. **Web Application Exploitation**
+5. **Web Application Exploitation**
    - Common attacks
-7. **Wireless Exploitation**
-8. **Report Writing and Legal Documentation**
-   - Sales meeting documents
-   - Sample penetration test reports
-9. **Career Advice**
+6. **Wireless Exploitation**
+7. **Report Writing and Legal Documentation**
+   - Sample penetration testing report
+   - Documentation for client meetings
+8. **Career Advice**
 
----
+## Additional Resources
 
-## Important Note
+- The instructor recommends checking out the bonus video first
+- It provides information about joining the course's Discord channel (with 4000+ members)
+- The Discord channel is a resource for troubleshooting and asking questions related to the course
 
-**Bonus Video:**
-
-- **Purpose:** Provides a link to a Discord channel for course-related resources
-- **Why:** Udemy policies prevent sharing personal links directly
-- **Discord Channel:**
-  - Already has 4000 members
-  - Resource for troubleshooting and course questions
-
----
-
-## Conclusion
-
-Heath expresses his enthusiasm for the course and looks forward to growing with the students. He encourages them to watch the bonus video before proceeding to ensure they have access to all available resources.
-
----
-
-**Next Steps:** Move on to the next video in the series.
+Overall, the course promises a practical and comprehensive approach to ethical hacking, covering various aspects from foundations to advanced topics like Active Directory exploitation.
