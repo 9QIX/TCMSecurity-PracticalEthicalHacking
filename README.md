@@ -327,10 +327,3 @@ aying\*\* (9:18)
 ### Conclusion
 
 Thank you for joining this course on Practical Ethical Hacking. We hope it has equipped you with the skills and knowledge to advance in your cybersecurity career. Happy hacking! 🖥️🔒
-
----
-
-### Start Learning Now!
-
-- **[Enroll in the Course](#)**
-- **[Visit the Course Website](#)**
