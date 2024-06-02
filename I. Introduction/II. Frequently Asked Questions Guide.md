@@ -1,42 +1,19 @@
-# Frequently Asked Questions and Q&A
+# Frequently Asked Questions
 
----
+## Important Resources
 
-## Introduction to FAQs
+- Discord channel (mentioned in the bonus video)
+- Udemy Q&A section
 
-After watching the introduction video, it's important to note the availability of frequently asked questions (FAQs) for the course.
+## Commonly Reported Issues (by Video)
 
-### Resources for FAQs
+- The frequently asked questions received so far have been organized and included in the attached resource for this video.
+- This resource will be constantly updated with new questions.
 
-- **Discord Channel:**
-  - Mentioned in the bonus video
-  - Provides access to community discussions and support
-- **Udemy Q&A Section:**
-  - A feature within Udemy platform
-  - Allows students to ask and answer questions related to the course
+## Seeking Help
 
----
+- If your question is not covered in the attached resource, you can:
+- Ask in the Discord channel, or
+- Post your question on the Udemy Q&A section.
 
-## FAQ Organization
-
-- **Updates:** FAQs are regularly updated based on common questions received
-- **Organization:** FAQs are categorized by commonly reported issues and organized according to video appearance
-
-### How to Access FAQs
-
-- **Attached Resource:** Check the attached resource to the video for FAQs
-  - This resource will be continually updated with new FAQs
-- **If Your Question Isn't Listed:**
-  - If you don't find your question in the FAQs, either by video or in general, try:
-    - Checking the Discord channel
-    - Asking your question in the Udemy Q&A section
-
----
-
-## Conclusion
-
-Thank you for joining the course. If you encounter any issues or have questions, refer to the FAQs or reach out through the Discord channel or Udemy Q&A section.
-
----
-
-**Next Steps:** Dive into the course content, and don't hesitate to seek assistance if needed.
+Thank you for joining the course!
