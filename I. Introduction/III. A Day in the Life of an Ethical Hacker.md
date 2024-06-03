@@ -22,7 +22,7 @@
 
 ### Base Level
 
-- Linux (Kali Linux or Parrot OS).
+- Linux (Kali Linux or Parrot OS)
 - Networking (OSI model, protocols like TCP/IP, UDP, etc.)
 - Scripting skills (Python, Bash, etc.)
 - Solid hacking methodology
