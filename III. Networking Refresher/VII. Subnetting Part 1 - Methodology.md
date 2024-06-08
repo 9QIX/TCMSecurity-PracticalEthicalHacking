@@ -48,7 +48,7 @@
 
 - **Key Takeaways**
   - Subnetting is a fundamental concept in networking.
-  - Understanding subnet masks and how they work is essential for managing and securing networks effectively..
+  - Understanding subnet masks and how they work is essential for managing and securing networks effectively.
 
 Citations:
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/2958232/fbeeb022-0445-4046-8c73-a7bca9ffa013/paste.txt
