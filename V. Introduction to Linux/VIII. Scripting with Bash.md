@@ -34,3 +34,19 @@
   - Pings port 80 on each IP in the list using nmap
 
 The video covers creating a basic ping sweeper script in Bash, demonstrating concepts like `grep`, `cut`, `tr`, and for loops. It also shows how to run commands for each IP in a list using a one-liner for loop.
+
+### IP Sweep
+
+```bash
+#!/bin/bash
+if [ "$1" == "" ]
+then
+echo "You forgot an IP address!"
+echo "Syntax: ./ipsweep.sh 192.168.1"
+
+else
+for ip in `seq 1 254`; do
+ping -c 1 $1.$ip | grep "64 bytes" | cut -d " " -f 4 | tr -d ":" &
+done
+fi
+```
