@@ -39,14 +39,47 @@ The video covers creating a basic ping sweeper script in Bash, demonstrating con
 
 ```bash
 #!/bin/bash
+
+# Check if the first argument ($1) is empty
 if [ "$1" == "" ]
 then
-echo "You forgot an IP address!"
-echo "Syntax: ./ipsweep.sh 192.168.1"
+    # If no argument is provided, print an error message
+    echo "You forgot an IP address!"
+    # Provide the correct syntax for running the script
+    echo "Syntax: ./ipsweep.sh 192.168.1"
 
 else
-for ip in `seq 1 254`; do
-ping -c 1 $1.$ip | grep "64 bytes" | cut -d " " -f 4 | tr -d ":" &
-done
+    # If an argument is provided, proceed with the for loop
+    # Loop through the numbers 1 to 254
+    for ip in `seq 1 254`; do
+        # Send one ping packet to the IP address composed of the argument and the current loop number
+        # Example: if $1 is 192.168.1, then it pings 192.168.1.1, 192.168.1.2, ..., 192.168.1.254
+        ping -c 1 $1.$ip |
+        # Check the output for the presence of "64 bytes", indicating a successful ping
+        grep "64 bytes" |
+        # Extract the 4th field from the output (which is the IP address), and remove the trailing colon
+        cut -d " " -f 4 | tr -d ":" &
+    done
+    # The '&' at the end of the ping command runs each ping in the background, allowing multiple pings to be sent simultaneously
 fi
 ```
+
+### Explanation:
+
+1. **Shebang (`#!/bin/bash`)**:
+
+   - Specifies the script should be run using the Bash shell.
+
+2. **Checking for Argument**:
+
+   - `if [ "$1" == "" ]`: Checks if the first argument (`$1`) is empty.
+   - `then`: If the argument is empty, it prints a message indicating that the user forgot to provide an IP address and shows the correct syntax for running the script.
+
+3. **Loop and Ping**:
+   - `else`: If the argument is provided, the script enters the loop.
+   - `for ip in \`seq 1 254\`; do`: Loops through numbers 1 to 254.
+   - `ping -c 1 $1.$ip`: Pings each IP address formed by appending the loop number (`ip`) to the provided base IP (`$1`), e.g., `192.168.1.1`, `192.168.1.2`, ..., `192.168.1.254`.
+   - `grep "64 bytes"`: Filters the output of the ping command to lines containing "64 bytes", indicating a successful ping.
+   - `cut -d " " -f 4`: Extracts the 4th field of the filtered output, which is the IP address.
+   - `tr -d ":"`: Removes the trailing colon from the extracted IP address.
+   - `&`: Runs the ping command in the background to allow parallel execution of pings, speeding up the scanning process.
