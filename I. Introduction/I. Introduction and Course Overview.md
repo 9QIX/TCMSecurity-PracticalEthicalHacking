@@ -8,7 +8,7 @@
 
 ## Course Overview
 
-### What Makes This Course Different?
+### What Makes This Course Different
 
 - Focuses on practical experience and concepts, not just tools
 - Explains concepts in a simple, easy-to-understand manner
