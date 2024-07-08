@@ -40,3 +40,5 @@
 - The Discord channel is a resource for troubleshooting and asking questions related to the course
 
 Overall, the course promises a practical and comprehensive approach to ethical hacking, covering various aspects from foundations to advanced topics like Active Directory exploitation.
+
+### IP Sweep
