@@ -14,7 +14,7 @@
 - Explains concepts in a simple, easy-to-understand manner
 - Covers topics often overlooked, like Active Directory penetration testing
 
-### Cour se Topics
+### Course Topics
 
 1. **Introduction**
    - Effective note-taking
