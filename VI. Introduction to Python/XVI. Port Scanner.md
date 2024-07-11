@@ -82,3 +82,46 @@ python3 scanner.py <ip_address>
 - Additional features like service detection could be implemented
 
 The instructor emphasizes that this is a basic implementation to demonstrate Python concepts and serve as a foundation for more advanced tools.
+
+### Port Scanner
+
+```python
+#!/usr/bin/env python3
+
+import sys
+import socket
+from datetime import datetime
+
+# Validate and parse command line arguments
+if len(sys.argv) == 2:
+    target = socket.gethostbyname(sys.argv[1])  # Translate hostname to IPv4
+else:
+    print("Invalid amount of arguments")
+    print("Syntax: python3 scanner.py <ip>")
+    sys.exit()
+
+# Display scanning information
+print("-" * 50)
+print(f"Scanning target {target}")
+print(f"Time started: {str(datetime.now())}")
+print("-" * 50)
+
+# Main scanning loop
+try:
+    for port in range(50, 85):  # Adjust the port range as needed
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # Create a socket
+        socket.setdefaulttimeout(1)  # Set a timeout for socket operations
+        result = s.connect_ex((target, port))  # Attempt to connect to the port
+        if result == 0:  # Port is open
+            print(f"Port {port} is open")
+        s.close()  # Close the socket
+except KeyboardInterrupt:
+    print("\nExiting program")
+    sys.exit()
+except socket.gaierror:
+    print("Hostname could not be resolved")
+    sys.exit()
+except socket.error:
+    print("Couldn't connect to server")
+    sys.exit()
+```
