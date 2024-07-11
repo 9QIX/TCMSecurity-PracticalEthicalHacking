@@ -5,7 +5,7 @@
 - Dictionaries use key-value pairs
 - Syntax: Curly braces `{}`
 
-## Creating Dictionaries
+## Creat ing Dictionaries
 
 ```python
 drinks = {
