@@ -33,3 +33,31 @@
 ## Next Steps
 
 - Building a simple port scanner in the next lesson
+
+## `Socket.py`
+
+```python
+#!/usr/bin/env python3
+
+# Import the socket module
+import socket
+
+# Define the server's hostname or IP address and the port to connect to
+HOST = '127.0.0.1'
+PORT = 7777
+
+# Create a TCP/IP socket
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # AF_INET specifies IPv4, SOCK_STREAM specifies a TCP connection
+
+try:
+    # Connect the socket to the specified server and port
+    s.connect((HOST, PORT))
+    print(f"Connected to {HOST} on port {PORT}")
+except ConnectionError as e:
+    # Handle connection errors
+    print(f"Failed to connect to {HOST} on port {PORT}: {e}")
+finally:
+    # Always close the socket after use
+    s.close()
+
+```
