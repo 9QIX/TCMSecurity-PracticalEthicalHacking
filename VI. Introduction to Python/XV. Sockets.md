@@ -59,5 +59,4 @@ except ConnectionError as e:
 finally:
     # Always close the socket after use
     s.close()
-
 ```
