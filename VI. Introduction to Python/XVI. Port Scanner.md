@@ -61,7 +61,7 @@
        sys.exit()
    ```
 
-## Key Poin ts
+## Key Points
 
 - The script scans a range of ports (50-85 in the example)
 - It's relatively slow due to sequential scanning
