@@ -83,7 +83,7 @@ python3 scanner.py <ip_address>
 
 The instructor emphasizes that this is a basic implementation to demonstrate Python concepts and serve as a foundation for more advanced tools.
 
-### Port Scanner
+### Port Sca nner
 
 ```python
 #!/usr/bin/env python3
