@@ -74,7 +74,7 @@
 python3 scanner.py <ip_address>
 ```
 
-## Limitat ions and Potential Improvements
+## Limitations and Potential Improvements
 
 - Slow for large port ranges
 - Could benefit from threading for faster scanning
