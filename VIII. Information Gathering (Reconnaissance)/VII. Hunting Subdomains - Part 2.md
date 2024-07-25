@@ -1,6 +1,6 @@
 # Subdomain Enumeration: Results and Advanced Tools
 
-## Subli ster Results
+## Sublister Results
 
 - Found 87 subdomains for Tesla.com
 - Automatically includes fourth-level domains
